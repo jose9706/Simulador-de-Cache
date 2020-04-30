@@ -13,6 +13,7 @@
     Cuando se corre el programa se deben ingresar siempre todos los parametros de entrada, se desee o no 
     correr algun predictor esto por la manera que se encuentran los valores de los parametros de entrada. 
 
+    El programa se puede compilar con el comando make. Sino se puede correr con lo siguiente:
     El programa de puede compilar con:
     g++ main.cpp -o out
     La forma de correr el programa en base a lo anterior es: 
