@@ -1,5 +1,5 @@
 make:
-	g++ main.cpp -o out
+	g++ main.cpp -o branch
 bht:
 	gunzip -c branch-trace-gcc.trace.gz | head -200 | ./out -s 3 -bp 0 -gh 4 -ph 3 -o 1
 gshare:
