@@ -15,9 +15,9 @@
 
     El programa se puede compilar con el comando make. Sino se puede correr con lo siguiente:
     El programa de puede compilar con:
-    g++ main.cpp -o out
+    g++ main.cpp -o branch
     La forma de correr el programa en base a lo anterior es: 
-    gunzip -c branch-trace-gcc.trace.gz j branch -s < # > -bp < # > -gh < # > -ph < # > -o < # >
+    gunzip -c branch-trace-gcc.trace.gz | ./branch -s < # > -bp < # > -gh < # > -ph < # > -o < # >
 
     El parametro -bp indica el predictor a usar de la forma:
     0 -> predictor bimodal
